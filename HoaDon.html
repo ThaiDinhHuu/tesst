@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hóa Đơn</title>
+      <script lang="JavaScript">
+            function TinhToan()
+            {
+                  frm.ThanhTien.value=frm.SoLuong.value*frm.DonGia.value;
+            }
+      </script>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif; background-color:lavender;">
+      <form name="frm">
+            <h1>Bạn hãy chọn số lượng và đơn giá</h1>
+            Số lượng : <input type="text" name="SoLuong">
+            Đơn giá : <input type="text" name="DonGia"> <hr>
+            Thành Tiền : <input name="ThanhTien" onmouseup="TinhToan();">USD
+      </form>
+      
+</body>
+</html>

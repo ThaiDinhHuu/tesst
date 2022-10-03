@@ -1,0 +1,13 @@
+var x = 10;
+document.write(x);
+document.write(typeof(x));
+document.write("<br>");
+x = true;
+x = "HelloWorld ";
+document.write(x);
+document.write("<br>");
+x = "12" + 4.3;
+document.write(x);
+document.write("<br>");
+x = parseInt("-32");
+document.write(x);
